@@ -138,11 +138,3 @@ Since this application parses all the active URLs in a domain in a hierarchy of 
 it is possible to extend this application to introduce an enhancement that would produce the graphical representation of domain URL inter-connectivities. This application has already addressed the issue of loops between URLs. All the end URL nodes of the inbuilt hierarchy of  interconnecting URL-nodes are either
 dead-end URLs (which do not direct to any other UR) or an URL node which direct to first already visited 
 URL node, thus resolving the issue of loops between URLs.
-
-## References:
-* 1\. https://pymotw.com/3/urllib.parse/#parsing 
-* 2\. Uniform Resource Identifiers (URI): Generic Syntax: https://tools.ietf.org/html/rfc2396.html 
-* 3\. pysitemap 0.5: https://pypi.python.org/pypi/pysitemap/0.5 
- (We have implemented am entirely different approach than this, as we have built a hierarchy of
- interconnecting nodes which is capable to support a wide range of future requirements (Please see the
- [Future Possible Extension](#future-possible-extension))section. We also list dead or broken URL links within a domain.)  
